@@ -1,0 +1,4 @@
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\bin\Debug\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\bin\Debug\CatalogoDeProdutos.Dominio.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\obj\Debug\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\obj\Debug\CatalogoDeProdutos.Dominio.pdb

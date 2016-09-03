@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{754456A3-0799-45D0-B918-19D3B9594A33}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CatalogoDeProdutos.Dominio</RootNamespace>
+    <AssemblyName>CatalogoDeProdutos.Dominio</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\Imagem.cs" />
+    <Compile Include="Entidades\Produto.cs" />
+    <Compile Include="Enums\Categorias.cs" />
+    <Compile Include="Enums\Subcategorias.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Casacos.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Jardineiras.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Basicos.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Fitness.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Vestidos.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Jeans.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Macacoes.cs" />
+    <Compile Include="Especificacoes\SubCategorias\ShortsBermudas.cs" />
+    <Compile Include="Especificacoes\SubCategorias\TShirtsRegatas.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Calcas.cs" />
+    <Compile Include="Especificacoes\SubCategorias\CamisasPolos.cs" />
+    <Compile Include="Especificacoes\SubCategorias\CasacosBlazers.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Pijamas.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Saias.cs" />
+    <Compile Include="Especificacoes\SubCategorias\BlusasTShirts.cs" />
+    <Compile Include="Especificacoes\SubCategorias\Camisas.cs" />
+    <Compile Include="Especificacoes\SubCategorias\PlusSize.cs" />
+    <Compile Include="Especificacoes\Gerenciadores\GerenciadorEspecificacoesProdutos.cs" />
+    <Compile Include="Especificacoes\Categorias\Masculino.cs" />
+    <Compile Include="Especificacoes\Categorias\Feminino.cs" />
+    <Compile Include="Especificacoes\Categorias\Linhas.cs" />
+    <Compile Include="Especificacoes\Categorias\Ofertas.cs" />
+    <Compile Include="Especificacoes\Categorias\Novidades.cs" />
+    <Compile Include="Interfaces\Repositorios\IImagemRepositorio.cs" />
+    <Compile Include="Interfaces\Servicos\IImagemServico.cs" />
+    <Compile Include="Interfaces\Servicos\IProdutoServico.cs" />
+    <Compile Include="Interfaces\IUnidadeDeTrabalho.cs" />
+    <Compile Include="Interfaces\Repositorios\IProdutoRepositorio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicos\ImagemServico.cs" />
+    <Compile Include="Servicos\ProdutoServico.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

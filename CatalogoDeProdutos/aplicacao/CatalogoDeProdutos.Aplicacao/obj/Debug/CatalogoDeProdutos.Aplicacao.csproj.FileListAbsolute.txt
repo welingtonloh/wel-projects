@@ -1,0 +1,13 @@
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\CatalogoDeProdutos.Aplicacao.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\CatalogoDeProdutos.Aplicacao.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\Ninject.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\CatalogoDeProdutos.Dominio.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Debug\Ninject.xml
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Debug\CatalogoDeProdutos.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Debug\CatalogoDeProdutos.Aplicacao.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Debug\CatalogoDeProdutos.Aplicacao.pdb

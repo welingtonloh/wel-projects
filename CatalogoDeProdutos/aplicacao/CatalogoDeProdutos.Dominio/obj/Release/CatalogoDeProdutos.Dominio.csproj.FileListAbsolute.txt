@@ -1,0 +1,5 @@
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\bin\Release\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\bin\Release\CatalogoDeProdutos.Dominio.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\obj\Release\CatalogoDeProdutos.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\obj\Release\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Dominio\obj\Release\CatalogoDeProdutos.Dominio.pdb

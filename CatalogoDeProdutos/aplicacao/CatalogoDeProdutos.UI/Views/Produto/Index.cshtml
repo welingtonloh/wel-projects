@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CatalogoDeProdutos.UI.ViewModels.ProdutoViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-xs-4">
+                <div class="card">
+                    <div class="card-block">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                        <h6 class="card-subtitle text-muted">R$ @Html.DisplayFor(modelItem => item.Preco)</h6>
+                    </div>
+                    <img src="data:image;base64,@System.Convert.ToBase64String(@item.Imagem.Arquivo)" alt="@Html.DisplayFor(modelItem => item.Nome)" width="60%" height="250" class="centralizarComponentes">
+                    <div class="card-block">
+                        <p class="card-text">
+                            <a 
+                                class="btn btn-primary centralizarComponentes" 
+                                data-toggle="collapse" 
+                                href="#collapseExample_@item.Id" 
+                                aria-expanded="false" 
+                                aria-controls="collapse_@item.Id"
+                                >Ver detalhes
+                            </a>
+                            <div 
+                                class="collapse" 
+                                id="collapseExample_@item.Id">@Html.DisplayFor(modelItem => item.Descricao)
+                                <hr />
+                                <div class="card-text">@Html.DisplayFor(modelItem => item.InformacoesAdicionais)</div>
+                                <hr />
+                                <button class="btn btn-primary centralizarComponentes" type="button" data-toggle="collapse" data-target="#collapseExample_@item.Id" aria-expanded="false" aria-controls="collapseExample_@item.Id" + item.Id}>
+                                    Ocultar
+                                </button>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

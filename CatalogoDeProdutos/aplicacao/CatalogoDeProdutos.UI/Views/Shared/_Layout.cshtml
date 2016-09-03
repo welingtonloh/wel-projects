@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Exemplo</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @using CatalogoDeProdutos.Dominio.Enums;
+
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+        @Html.ActionLink("Produtos Exemplo", "Index", "Produto", new { area = "" }, new { @class = "navbar-brand m-b-0" }) 
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                @Html.ActionLink(
+                    linkText:"Novidades",
+                    actionName:"Filtrar",
+                    controllerName:"Produto",
+                    routeValues: new { categoria = Categorias.Novidades, subcategoria = SubCategorias.Nenhum },
+                    htmlAttributes: new { @class = "nav-link" })
+            </li>
+            <li class="dropdown nav-item">
+                <a href="#"
+                    class="dropdown-toggle nav-link"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Feminino <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu nav-item" aria-labelledby="dropdownMenu1">
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Shorts e Bermudas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.ShortsBermudas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Saias",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Saias },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Blusas e T-shirts",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.BlusasTShirts },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Calças",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Calcas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Pijamas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Pijamas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Camisas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Camisas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Casacos",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Casacos },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Vestidos",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Vestidos },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Jeans",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Jeans },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Macacões e Jardineiras",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Feminino, subcategoria = SubCategorias.Macacoes },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown nav-item">
+                <a href="#"
+                    class="dropdown-toggle nav-link"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Masculino <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu nav-item">
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Shorts e Bermudas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.ShortsBermudas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "T-shirts e Regatas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.TShirtsRegatas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Calças",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.Calcas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Camisas e Pólos",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.CamisasPolos },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Casacos e Blazers",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.CasacosBlazers },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Pijamas",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Masculino, subcategoria = SubCategorias.Pijamas },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#"
+                    class="dropdown-toggle nav-link"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Linhas <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav-item" aria-labelledby="dropdownMenu1">
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Básicos",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Linhas, subcategoria = SubCategorias.Basicos },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>
+                        @Html.ActionLink(
+                        linkText: "Fitness",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Linhas, subcategoria = SubCategorias.Fitness },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                    <li>@Html.ActionLink(
+                        linkText: "Plus Size",
+                        actionName: "Filtrar",
+                        controllerName: "Produto",
+                        routeValues: new { categoria = Categorias.Linhas, subcategoria = SubCategorias.PlusSize },
+                        htmlAttributes: new { @class = "dropdown-item" })
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink(
+                    linkText: "Ofertas",
+                    actionName: "Filtrar",
+                    controllerName: "Produto",
+                    routeValues: new { categoria = Categorias.Ofertas, subcategoria = SubCategorias.Nenhum },
+                    htmlAttributes: new { @class = "nav-link" })
+            </li>
+            <li class="nav-item">@Html.ActionLink(
+                                linkText: "Contato",
+                                actionName: "Contato",
+                                controllerName: "Home",
+                                routeValues: null,
+                                htmlAttributes: new { @class = "nav-link" })</li>
+        </ul>
+    </nav>       
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Catálogo de produtos</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/catalogo")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

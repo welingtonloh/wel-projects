@@ -1,0 +1,10 @@
+﻿
+.centralizarTexto {
+    text-align: center;
+}
+
+.centralizarComponentes {
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%);
+}

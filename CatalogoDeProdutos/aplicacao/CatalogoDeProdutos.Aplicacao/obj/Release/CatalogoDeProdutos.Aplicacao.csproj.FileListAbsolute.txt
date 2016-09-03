@@ -1,0 +1,13 @@
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\CatalogoDeProdutos.Aplicacao.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\CatalogoDeProdutos.Aplicacao.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\CatalogoDeProdutos.Dominio.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\Ninject.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\CatalogoDeProdutos.Dominio.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\bin\Release\Ninject.xml
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Release\CatalogoDeProdutos.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Release\CatalogoDeProdutos.Aplicacao.dll
+C:\Users\welin\documents\visual studio 2015\Projects\CatalogoDeProdutosMalwee\aplicacao\CatalogoDeProdutos.Aplicacao\obj\Release\CatalogoDeProdutos.Aplicacao.pdb
